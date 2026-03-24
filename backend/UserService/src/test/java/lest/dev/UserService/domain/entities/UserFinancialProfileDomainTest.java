@@ -1,5 +1,7 @@
 package lest.dev.UserService.domain.entities;
 
+import lest.dev.UserService.domain.model.entities.UserFinancialProfileDomain;
+import lest.dev.UserService.domain.model.entities.UserSpendingLimitsDomain;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;

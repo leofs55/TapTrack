@@ -1,4 +1,4 @@
-package lest.dev.UserService.domain.entities;
+package lest.dev.UserService.domain.model.entities;
 
 import java.math.BigDecimal;
 import java.util.UUID;

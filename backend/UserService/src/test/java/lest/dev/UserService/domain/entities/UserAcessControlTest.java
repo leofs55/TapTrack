@@ -1,5 +1,7 @@
 package lest.dev.UserService.domain.entities;
 
+import lest.dev.UserService.domain.model.entities.UserAcessControl;
+import lest.dev.UserService.domain.model.entities.UserMfaStatusDomain;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDateTime;

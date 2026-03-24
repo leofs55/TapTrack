@@ -1,4 +1,4 @@
-package lest.dev.UserService.domain.entities;
+package lest.dev.UserService.domain.model.entities;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

@@ -1,5 +1,9 @@
 package lest.dev.UserService.domain.entities;
 
+import lest.dev.UserService.domain.model.entities.UserAcessControl;
+import lest.dev.UserService.domain.model.entities.UserComplianceDomain;
+import lest.dev.UserService.domain.model.entities.UserDomain;
+import lest.dev.UserService.domain.model.entities.UserFinancialProfileDomain;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
