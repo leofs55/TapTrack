@@ -1,7 +1,7 @@
 package lest.dev.UserService.domain.service.implementation;
 
 import lest.dev.UserService.domain.model.entities.UserDomain;
-import lest.dev.UserService.domain.service.usercase.CreateUserUsecase;
+import lest.dev.UserService.domain.service.usercases.CreateUserUsecase;
 
 public class CreateUserImplementation implements CreateUserUsecase {
 

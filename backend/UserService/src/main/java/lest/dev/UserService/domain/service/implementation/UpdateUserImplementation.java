@@ -1,8 +1,7 @@
 package lest.dev.UserService.domain.service.implementation;
 
 import lest.dev.UserService.domain.model.entities.UserDomain;
-import lest.dev.UserService.domain.service.usercase.CreateUserUsecase;
-import lest.dev.UserService.domain.service.usercase.UpdateUserUsecase;
+import lest.dev.UserService.domain.service.usercases.UpdateUserUsecase;
 
 public class UpdateUserImplementation implements UpdateUserUsecase {
     @Override
