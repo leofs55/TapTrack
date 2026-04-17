@@ -1,8 +1,11 @@
 package lest.dev.UserService.domain.model.entities;
 
 import java.time.LocalDateTime;
+import java.util.UUID;
 
 public class UserTermsAcceptedDomain {
+
+    private UUID userId;
     private String version;
     private LocalDateTime acceptedAt;
     private String ipAddress;

@@ -1,8 +1,11 @@
 package lest.dev.UserService.domain.model.entities;
 
 import java.math.BigDecimal;
+import java.util.UUID;
 
 public class UserSpendingLimitsDomain {
+
+    private UUID userId;
     private BigDecimal daily;
     private BigDecimal monthly;
 

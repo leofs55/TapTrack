@@ -1,6 +1,10 @@
 package lest.dev.UserService.domain.model.entities;
 
+import java.util.UUID;
+
 public class UserMfaStatusDomain {
+
+    private UUID userId;
     private boolean enabled;
     private String method; // totp | sms
 

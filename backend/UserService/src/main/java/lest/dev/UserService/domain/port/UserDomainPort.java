@@ -1,4 +1,4 @@
-package lest.dev.UserService.domain.port.output;
+package lest.dev.UserService.domain.port;
 
 import lest.dev.UserService.domain.model.entities.UserDomain;
 

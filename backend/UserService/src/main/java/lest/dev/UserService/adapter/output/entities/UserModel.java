@@ -1,10 +1,10 @@
-package lest.dev.UserService.domain.model.entities;
+package lest.dev.UserService.adapter.output.entities;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-public class  UserDomain {
+public class UserModel {
     private UUID userId;
     private String name;
     private String taxId; // CPF/CNPJ
@@ -15,13 +15,13 @@ public class  UserDomain {
     private LocalDateTime updatedAt;
 
     // Relacionamentos com outras entidades de domínio
-    private UserComplianceDomain compliance;
-    private UserFinancialProfileDomain financialProfile;
-    private UserAcessControl accessControl;
+    private UserComplianceModel compliance;
+    private UserFinancialProfileModel financialProfile;
+    private UserAcessControlModel accessControl;
 
-    public UserDomain() {}
+    public UserModel() {}
 
-    public UserDomain(UUID userId, String name, String taxId, LocalDate birthDate, String email, String phone, LocalDateTime createdAt, LocalDateTime updatedAt, UserComplianceDomain compliance, UserFinancialProfileDomain financialProfile, UserAcessControl accessControl) {
+    public UserModel(UUID userId, String name, String taxId, LocalDate birthDate, String email, String phone, LocalDateTime createdAt, LocalDateTime updatedAt, UserComplianceModel compliance, UserFinancialProfileModel financialProfile, UserAcessControlModel accessControl) {
         this.userId = userId;
         this.name = name;
         this.taxId = taxId;
@@ -99,27 +99,27 @@ public class  UserDomain {
         this.updatedAt = updatedAt;
     }
 
-    public UserComplianceDomain getCompliance() {
+    public UserComplianceModel getCompliance() {
         return compliance;
     }
 
-    public void setCompliance(UserComplianceDomain compliance) {
+    public void setCompliance(UserComplianceModel compliance) {
         this.compliance = compliance;
     }
 
-    public UserFinancialProfileDomain getFinancialProfile() {
+    public UserFinancialProfileModel getFinancialProfile() {
         return financialProfile;
     }
 
-    public void setFinancialProfile(UserFinancialProfileDomain financialProfile) {
+    public void setFinancialProfile(UserFinancialProfileModel financialProfile) {
         this.financialProfile = financialProfile;
     }
 
-    public UserAcessControl getAccessControl() {
+    public UserAcessControlModel getAccessControl() {
         return accessControl;
     }
 
-    public void setAccessControl(UserAcessControl accessControl) {
+    public void setAccessControl(UserAcessControlModel accessControl) {
         this.accessControl = accessControl;
     }
 }
